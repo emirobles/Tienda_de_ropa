@@ -1,0 +1,25 @@
+@import "partials/header";
+@import "partials/footer";
+@import "partials/buttons";
+@import "partials/form";
+
+$color_title: #58174b;
+
+body {
+    font-family: Ubuntu, sans-serif;
+    overflow-x: hidden;
+    background-color: #fff6ed;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+    color: $color_title;
+}
+
+.intro {
+    text-align: center;
+    width: 30rem;
+    margin: auto;
+}
+

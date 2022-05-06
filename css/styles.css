@@ -1,0 +1,100 @@
+header {
+  background-color: bisque; }
+
+#navbarSupportedContent a:hover {
+  color: white;
+  background-color: #f28aa5;
+  border-radius: 10px; }
+
+#menu a {
+  font-size: 20px;
+  color: #d17386; }
+
+#pie {
+  background-color: #6d3d52;
+  color: #f5e1e3;
+  padding: 20px;
+  padding-bottom: 10px; }
+  #pie a {
+    text-decoration: none;
+    color: white; }
+    #pie a a:hover {
+      color: #f28aa5; }
+
+.cover {
+  visibility: hidden; }
+
+.ofertas {
+  text-align: center;
+  margin: 30px; }
+  .ofertas #agotado:hover .cover {
+    background: red;
+    visibility: visible; }
+
+.carousel-inner {
+  max-height: 48rem;
+  display: flex; }
+
+.send-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+form {
+  background-color: #850000;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 20px;
+  width: 400px;
+  max-width: 400%;
+  border-radius: 10px;
+  border: solid;
+  backdrop-filter: blur(10px);
+  box-shadow: #850000;
+  justify-content: center; }
+
+.form-container {
+  width: fit-content;
+  margin: 0 auto; }
+
+.form-block {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px; }
+
+.message {
+  width: 100%; }
+  .message label {
+    width: 100%;
+    float: left; }
+
+textarea#mensaje {
+  width: 100%;
+  height: 100px;
+  font-family: 'Roboto', sans-serif; }
+
+input {
+  word-spacing: 5px;
+  float: right;
+  width: 50%;
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  font-family: Ubuntu, sans-serif;
+  overflow-x: hidden;
+  background-color: #fff6ed;
+  text-align: center; }
+
+h2 {
+  margin: 20px;
+  color: #58174b; }
+
+.intro {
+  text-align: center;
+  width: 30rem;
+  margin: auto; }
