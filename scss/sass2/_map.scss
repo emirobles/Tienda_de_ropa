@@ -1,0 +1,13 @@
+@import "../variables/variables";
+
+$rrss: (
+    color: #f2b7f2,
+    fsize: fsize,
+    fondo: #89678f,
+);
+
+.redes a{
+    background-color: map-get($rrss, fondo);
+    color: map-get($rrss, color);
+}
+

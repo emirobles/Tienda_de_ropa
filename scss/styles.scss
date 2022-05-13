@@ -1,20 +1,28 @@
-@import "partials/header";
 @import "partials/footer";
-@import "partials/buttons";
 @import "partials/form";
+@import "sass2/buttons";
+@import "sass2/header";
+@import "sass2/map";
+@import "sass2/mixin";
+@import "variables/variables";
+@import "sass2/extend";
 
-$color_title: #58174b;
 
 body {
     font-family: Ubuntu, sans-serif;
     overflow-x: hidden;
     background-color: #fff6ed;
-    text-align: center;
+    text-align: center;    
 }
 
 h2 {
     margin: 20px;
     color: $color_title;
+}
+
+h4{
+    color: $color_subs;
+    margin-top: 100px;
 }
 
 .intro {
@@ -23,3 +31,17 @@ h2 {
     margin: auto;
 }
 
+@media (min-width: 768px) {
+    .grid-padre {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+@media (min-width:1024px) {
+    .grid-padre {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+ 

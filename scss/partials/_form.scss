@@ -1,8 +1,14 @@
+@import "../sass2/extend";
+@import "../variables/variables";
+@import "../sass2/mixin";
+
+
 form {
-    background-color: #850000;
+    @extend .forms-footer;
+    background-color: fondo;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;    
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 20px;
@@ -10,14 +16,14 @@ form {
     max-width: 400%;
     border-radius: 10px;
     border: solid;
-    backdrop-filter: blur(10px);
-    box-shadow: #850000;
+    backdrop-filter: blur(10px);    
     justify-content: center
 }
 
 .form-container {
     width: fit-content;
     margin: 0 auto;
+    text-align: center;
 }
 
 .form-block {
@@ -33,7 +39,7 @@ form {
 
     label {
         width: 100%;
-        float: left;
+        float: left;        
     }
 }
 

@@ -1,0 +1,16 @@
+@import "../variables/variables";
+
+
+@mixin recuadro {
+    background-color: pink;
+    border: solid #d6a2e3 0.5px;    
+    width: 18rem;
+    margin: 20px;
+    text-align: center;
+    color: #bf307d;
+    
+}
+
+.card{
+    @include recuadro;
+}
