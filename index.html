@@ -16,7 +16,8 @@
         <!----Componentes del menu----->
         <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
             <a class="navbar-brand fw-bold" href="#" id="marca">Tienda La Rosa</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,30 +44,50 @@
         </nav>
         <!--------->
     </header>
-    <!----Slides con carousel----->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
-            
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img class="d-block w-100" src="img/temporadabanner.jpg" alt="Nueva temporada">
+            <div class="carousel-item active contenedor__item">
+                <img src="img/close-up-portrait-beautiful-woman-posing-hat-sheepskin-gloves-blond-haired-lady-touching-her-head-isolated-wooden-background.jpg" class="d-block w-100" alt="Nueva temporada">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ENTERATE DE LO NUEVO</h5>
+                    <p>Estate preparada para el invierno</p>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/ofertasbanner.PNG" alt="Oferta semanal">
+            <div class="carousel-item contenedor__item">
+                <img src="img/oferta-sale.jpg" class="d-block w-100" alt="Ofertas">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>APROVECHA LAS OFERTAS</h5>
+                    <p>Descuentos en temporadas pasadas</p>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/pagotarjeta.jpg" alt="Pago">
+            <div class="carousel-item contenedor__item">
+                <img src="img/cheeky-young-woman-winking-you-recommending-mobile-banking-app-showing-empty-smartphone-screen-plastic-credit-card-white-wall.jpg" class="d-block w-100" alt="pagos">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>HACE TUS COMPRAS ONLINE</h5>
+                    <p>Es mucho más fácil y práctico, te lo llevamos a domicilio</p>
+                </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-        </a>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <!--------->
     <footer id="pie">
         <div class="fondo">
             <div>
