@@ -35,7 +35,8 @@
 
 form {
   background-color: fondo;
-  padding: 10px 40px; }
+  padding: 10px 40px;
+  border-radius: 20px; }
 
 .container_form {
   margin: 50px 100px; }
@@ -63,9 +64,6 @@ form {
   background-color: #d6a2e3;
   border-color: #89678f; }
 
-header {
-  background-color: bisque; }
-
 #navbarSupportedContent a:hover {
   color: white;
   background-color: #f28aa5;
@@ -74,6 +72,22 @@ header {
 #menu a {
   font-size: 20px;
   color: #d17386; }
+
+.nav__bg {
+  background-color: bisque; }
+
+.brand_title {
+  margin-right: 100px;
+  margin-left: 30px; }
+
+.bg_title {
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 30px; }
+
+.descrip {
+  color: #5a1111;
+  font-weight: bold; }
 
 .redes a {
   background-color: #89678f;
@@ -94,7 +108,7 @@ header {
 body {
   font-family: Ubuntu, sans-serif;
   overflow-x: hidden;
-  background-color: #fff6ed;
+  background: url(../img/fondo.jpg);
   text-align: center; }
 
 h2 {
@@ -141,3 +155,7 @@ h4 {
   flex-direction: column;
   justify-content: space-between;
   margin: 0px; }
+
+.img_loc {
+  width: 60%;
+  margin: 20px; }

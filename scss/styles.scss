@@ -11,7 +11,7 @@
 body {
     font-family: Ubuntu, sans-serif;
     overflow-x: hidden;
-    background-color: #fff6ed;
+    background: url(../img/fondo.jpg);
     text-align: center;    
 }
 
@@ -71,4 +71,9 @@ h4{
     flex-direction: column;
     justify-content: space-between;
     margin: 0px;
+}
+
+.img_loc{
+    width: 60%;
+    margin: 20px;
 }

@@ -12,102 +12,106 @@
     <title>Tienda La Rosa</title>
 </head>
 <body>
-    <header class="container-fluid">
-        <!----Componentes del menu----->
-        <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
-            <a class="navbar-brand fw-bold" href="#" id="marca">Tienda La Rosa</a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="contenedor_full">
+        <header class="container-fluid nav__bg">
+            <!----Componentes del menu----->
+            <nav class="navbar navbar-expand-lg navbar-light p-3 nav__bg" id="menu">
+                <a class="navbar-brand fw-bold" href="#" id="marca">Tienda La Rosa</a>
         
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Inicio<span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/temporadas.html">Temporadas</a>
-                    </li>                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">Contactanos</a>
-                    </li>
-                </ul>                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/temporadas.html">Temporadas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--------->
+        </header>
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-        </nav>
-        <!--------->
-    </header>
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active contenedor__item">
-                <img src="img/close-up-portrait-beautiful-woman-posing-hat-sheepskin-gloves-blond-haired-lady-touching-her-head-isolated-wooden-background.jpg" class="d-block w-100" alt="Nueva temporada">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>ENTERATE DE LO NUEVO</h5>
-                    <p>Estate preparada para el invierno</p>
+            <div class="carousel-inner">
+                <div class="carousel-item active contenedor__item">
+                    <img src="img/close-up-portrait-beautiful-woman-posing-hat-sheepskin-gloves-blond-haired-lady-touching-her-head-isolated-wooden-background.jpg"
+                        class="d-block w-100" alt="Nueva temporada">
+                    <div class="carousel-caption d-none d-md-block descrip">
+                        <h5>ENTERATE DE LO NUEVO</h5>
+                        <p>Estate preparada para el invierno</p>
+                    </div>
+                </div>
+                <div class="carousel-item contenedor__item">
+                    <img src="img/oferta-sale.jpg" class="d-block w-100" alt="Ofertas">
+                    <div class="carousel-caption d-none d-md-block descrip">
+                        <h5>APROVECHA LAS OFERTAS</h5>
+                        <p>Descuentos en temporadas pasadas</p>
+                    </div>
+                </div>
+                <div class="carousel-item contenedor__item">
+                    <img src="img/cheeky-young-woman-winking-you-recommending-mobile-banking-app-showing-empty-smartphone-screen-plastic-credit-card-white-wall.jpg"
+                        class="d-block w-100" alt="pagos">
+                    <div class="carousel-caption d-none d-md-block descrip">
+                        <h5>HACE TUS COMPRAS ONLINE</h5>
+                        <p>Es mucho más fácil y práctico, te lo llevamos a domicilio</p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item contenedor__item">
-                <img src="img/oferta-sale.jpg" class="d-block w-100" alt="Ofertas">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>APROVECHA LAS OFERTAS</h5>
-                    <p>Descuentos en temporadas pasadas</p>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <footer id="pie">
+            <div class="fondo">
+                <div>
+                    <p>Encontranos en P. Marin Marotto 486 <br> Río Tercero - Córdoba</p>
+                </div>
+                <div class="redes">
+                    <a href="#">Whatsapp</a>
+                    <a href="#"">Facebook</a>
+                        <a href=" #"">Instagram</a>
+                </div>
+                <div class="copyright">
+                    &copy; Emilce Robles
                 </div>
             </div>
-            <div class="carousel-item contenedor__item">
-                <img src="img/cheeky-young-woman-winking-you-recommending-mobile-banking-app-showing-empty-smartphone-screen-plastic-credit-card-white-wall.jpg" class="d-block w-100" alt="pagos">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>HACE TUS COMPRAS ONLINE</h5>
-                    <p>Es mucho más fácil y práctico, te lo llevamos a domicilio</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <footer id="pie">
-        <div class="fondo">
-            <div>
-                <p>Encontranos en P. Marin Marotto 486 <br> Río Tercero - Córdoba</p>
-            </div>
-            <div class="redes">                
-                <a href="#">Whatsapp</a>
-                <a href="#"">Facebook</a>
-                <a href="#"">Instagram</a>
-            </div>
-            <div class="copyright">
-                &copy; Emilce Robles
-            </div>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+    </div>    
 </body>
 </html>
