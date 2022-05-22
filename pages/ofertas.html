@@ -17,7 +17,7 @@
         <header class="container-fluid nav__bg">
             <!--------->
             <nav class="navbar navbar-expand-lg navbar-light p-3 nav__bg" id="menu">
-                <a class="navbar-brand fw-bold brand_title" href="#">Tienda La Rosa</a>
+                <a class="navbar-brand fw-bold brand_title" style="color: #e84d8b;" href="#">Tienda La Rosa</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,25 +46,43 @@
             <!--------->
         
         </header>
-        <h2>Ofertas</h2>
-        <div class="col-12 col-md-6 col-lg4 ofertas grid-padre">
+        <div class="box">
+            <h2 class="gradient-text">OFERTAS</h2>
+        </div>        
+        <div class="grid-padre">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="../img/oferta1.jpg" alt="Sweater off">
                 <div class="card-body">
                     <h5 class="card-title">Sweaters - Temp. 2021</h5>
                     <p class="card-text">ARS $1000</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="contacto.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;" id="agotado">
+            <div class="card ofertas" style="width: 18rem;" id="agotado">
                 <img class="card-img-top" src="../img/oferta2.jpg" alt="Campera off">
                 <div class="card-body">
-                    <h5 class="card-title">Campera tejida - Temp. 2021</h5>
-                    <p class="card-text">ARS $1000</p>
+                    <h5 class="card-title">Camperita - Temp. 2021</h5>
+                    <p class="card-text">ARS $1500</p>
                     <a href="#" class="btn btn-primary" id="btn-agotado">Comprar</a>
                 </div>
                 <div class="cover">
                     <p>AGOTADO</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../img/campera_oferta.PNG" alt="Sweater off">
+                <div class="card-body">
+                    <h5 class="card-title">Campera - Temp. 2021</h5>
+                    <p class="card-text">ARS $3000</p>
+                    <a href="contacto.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../img/remera-oferta.PNG" alt="Sweater off">
+                <div class="card-body">
+                    <h5 class="card-title">Remera - Temp. 2021</h5>
+                    <p class="card-text">ARS $1000</p>
+                    <a href="contacto.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </div>
@@ -75,9 +93,11 @@
                     <p>Encontranos en P. Marin Marotto 486 <br> Río Tercero - Córdoba</p>
                 </div>
                 <div class="redes">
-                    <a href="#">Whatsapp</a>
-                    <a href="#"">Facebook</a>
-                            <a href=" #"">Instagram</a>
+                    <div class="container-buttons">
+                        <a href="#" class="fb fa fa-facebook-square" aria-hidden="true"></a>
+                        <a href="#" class="ig fa fa-instagram" aria-hidden="true"></a>
+                        <a href=" #" class="fa fa-whatsapp" aria-hidden="true"></a>
+                    </div>
                 </div>
                 <div class="copyright">
                     &copy; Emilce Robles

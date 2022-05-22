@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans+Condensed:wght@100&family=Shadows+Into+Light&display=swap');
 @import "partials/footer";
 @import "partials/form";
 @import "sass2/buttons";
@@ -36,14 +37,29 @@ h4{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
+        margin: 20px 60px;
+        
     }
 }
 
 @media (min-width:1024px) {
     .grid-padre {
         grid-template-columns: repeat(4, 1fr);
+        margin: 20px 60px;
     }
 }
+
+.ofertas:hover {
+    .cover {
+    background-color: #f264ab;
+    visibility: visible;    
+        p {
+            color: beige;
+            padding-top: 10px;
+        }
+    } 
+}
+
  
 .contenedor__item{
     position: relative;
@@ -76,4 +92,19 @@ h4{
 .img_loc{
     width: 60%;
     margin: 20px;
+    
+}
+
+.gradient-text{
+    color: white;
+    text-shadow: 0 0 5px purple, 0 0 5px purple, 0 0 5px purple, 0 0 5px purple;    
+}
+
+.gradient-shadow:hover{
+    box-shadow: 0 0 5px #f264ab, 0 0 5px #f264ab, 0 0 5px #f264ab, 0 0 5px #f264ab;
+    transform: scale(1.10);
+}
+
+.text-p{
+    font-family: "acme";
 }

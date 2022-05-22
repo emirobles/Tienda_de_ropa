@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans+Condensed:wght@100&family=Shadows+Into+Light&display=swap");
 .forms-footer, #pie, form {
   background-color: palevioletred;
   color: white; }
@@ -20,6 +21,10 @@
     color: white; }
     #pie a a:hover {
       color: #f28aa5; }
+  #pie .copyright {
+    color: #cdcdcb;
+    font-size: 18px;
+    font-family: "Shadows Into Light"; }
 
 .forms-footer, #pie, form {
   background-color: palevioletred;
@@ -64,6 +69,9 @@ form {
   background-color: #d6a2e3;
   border-color: #89678f; }
 
+.container-buttons {
+  align-items: center; }
+
 #navbarSupportedContent a:hover {
   color: white;
   background-color: #f28aa5;
@@ -86,12 +94,28 @@ form {
   border-radius: 30px; }
 
 .descrip {
-  color: #5a1111;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: "Fira Sans Condensed" bold; }
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between; }
+
+.logo-brand {
+  display: flexbox;
+  justify-content: space-between;
+  padding: 20px;
+  color: black;
+  letter-spacing: 3px; }
 
 .redes a {
-  background-color: #89678f;
-  color: #f2b7f2; }
+  color: #f2b7f2;
+  background-color: #f2b7f2;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 0px 5px 10px; }
+  .redes a:hover {
+    background-color: bisque; }
 
 .card {
   background-color: pink;
@@ -128,11 +152,20 @@ h4 {
   .grid-padre {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem; } }
+    column-gap: 2rem;
+    margin: 20px 60px; } }
 
 @media (min-width: 1024px) {
   .grid-padre {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 60px; } }
+
+.ofertas:hover .cover {
+  background-color: #f264ab;
+  visibility: visible; }
+  .ofertas:hover .cover p {
+    color: beige;
+    padding-top: 10px; }
 
 .contenedor__item {
   position: relative;
@@ -159,3 +192,14 @@ h4 {
 .img_loc {
   width: 60%;
   margin: 20px; }
+
+.gradient-text {
+  color: white;
+  text-shadow: 0 0 5px purple, 0 0 5px purple, 0 0 5px purple, 0 0 5px purple; }
+
+.gradient-shadow:hover {
+  box-shadow: 0 0 5px #f264ab, 0 0 5px #f264ab, 0 0 5px #f264ab, 0 0 5px #f264ab;
+  transform: scale(1.1); }
+
+.text-p {
+  font-family: "acme"; }

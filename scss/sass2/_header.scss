@@ -15,7 +15,8 @@
 
 .brand_title{
     margin-right: 100px;
-    margin-left: 30px;     
+    margin-left: 30px;    
+      
 }
 
 .bg_title{
@@ -24,8 +25,21 @@
     border-radius: 30px;
 }
 
-.descrip{
-    color: rgb(90, 17, 17);
-    font-weight: bold;     
+.descrip{    
+    font-weight: bold;
+    font-family: "Fira Sans Condensed" bold;     
 
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-brand{
+    display: flexbox;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+    letter-spacing: 3px;
 }
