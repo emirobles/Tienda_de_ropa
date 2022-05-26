@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans+Condensed:wght@100&family=Shadows+Into+Light&display=swap");
 .forms-footer, #pie, form {
-  background-color: palevioletred;
+  background-color: rgba(216, 112, 147, 0.822);
   color: white; }
 
 .card {
@@ -22,12 +22,12 @@
     #pie a a:hover {
       color: #f28aa5; }
   #pie .copyright {
-    color: #cdcdcb;
+    color: #525250;
     font-size: 18px;
     font-family: "Shadows Into Light"; }
 
 .forms-footer, #pie, form {
-  background-color: palevioletred;
+  background-color: rgba(216, 112, 147, 0.822);
   color: white; }
 
 .card {
@@ -126,18 +126,28 @@ form {
   color: #bf307d; }
 
 .forms-footer, #pie, form {
-  background-color: palevioletred;
+  background-color: rgba(216, 112, 147, 0.822);
   color: white; }
 
 body {
   font-family: Ubuntu, sans-serif;
   overflow-x: hidden;
   background: url(../img/fondo.jpg);
-  text-align: center; }
+  text-align: center;
+  cursor: url(../img/rose_98493.png), auto; }
+
+a {
+  cursor: url(https://img.icons8.com/dusk/38/000000/hand-cursor.png), auto; }
+
+h1 {
+  margin: 0px; }
 
 h2 {
   margin: 20px;
   color: #58174b; }
+
+h3 {
+  color: purple; }
 
 h4 {
   color: #f264ab;
@@ -191,7 +201,10 @@ h4 {
 
 .img_loc {
   width: 60%;
-  margin: 20px; }
+  margin: 20px;
+  border-radius: 20%;
+  border: #f264ab86 solid 8px;
+  box-shadow: 0 0 5px rgba(128, 0, 128, 0.719), 0 0 5px rgba(128, 0, 128, 0.719), 0 0 5px rgba(128, 0, 128, 0.719), 0 0 5px rgba(128, 0, 128, 0.719); }
 
 .gradient-text {
   color: white;
