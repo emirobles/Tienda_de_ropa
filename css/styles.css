@@ -153,11 +153,6 @@ h4 {
   color: #f264ab;
   margin-top: 100px; }
 
-.intro {
-  text-align: center;
-  width: 30rem;
-  margin: auto; }
-
 @media (min-width: 768px) {
   .grid-padre {
     display: grid;
@@ -216,3 +211,32 @@ h4 {
 
 .text-p {
   font-family: "acme"; }
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+
+.video-box {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 10px auto 0; }
+
+.video {
+  position: relative;
+  height: 0;
+  padding-top: 56.25%;
+  margin-left: 10px;
+  padding-right: 10px; }
+
+.video video {
+  width: 100%;
+  height: auto; }
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
